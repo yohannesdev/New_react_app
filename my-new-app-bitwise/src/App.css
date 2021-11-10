@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  box-sizing: border-box;
+}
+body {
+  backface-visibility: #22254b;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.button {
+  display: inline-block;
+  background: rgb(153, 148, 148);
+  border-radius: 9px;
+  font-family: "arial-black";
+  font-size: 14px;
+  color: black;
+  cursor: pointer;
+}
+.title-rating {
+  display: flex;
+  align-items: center;
+}
+.rat-btn {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.but-one {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.but-two {
+  margin-left: 10px;
+}
+
+.rated {
+  display: flex;
+  border-spacing: 5px;
+  margin-bottom: 20px;
+}
+
+.boxed {
+  display: flex;
+  max-width: 45%;
+}
